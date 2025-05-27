@@ -1,0 +1,177 @@
+{
+  "usuario": [
+    {
+      "id": "1",
+      "fullname": "Gabrielll",
+      "email": "gabriel@gmail.com",
+      "senha": "adm13",
+      "admin": true,
+      "imagem": "http://localhost:3037/uploads/usuarios/1748302169192.jpg"
+    },
+    {
+      "id": "700a",
+      "fullname": "Pibloooo",
+      "email": "piblo@gmail.com",
+      "telefone": "1599999",
+      "senha": "piblo20",
+      "admin": false,
+      "imagem": "http://localhost:3037/uploads/usuarios/1748302047775.jpg"
+    },
+    {
+      "id": "1664",
+      "fullname": "Jonathan",
+      "email": "jojo@gmail.com",
+      "telefone": "1599888",
+      "senha": "jojo17",
+      "admin": false,
+      "imagem": ""
+    },
+    {
+      "id": "c998",
+      "fullname": "Leoooo",
+      "email": "leo@gmail.com",
+      "telefone": "157777",
+      "senha": "leo11",
+      "admin": false,
+      "imagem": ""
+    }
+  ],
+  "categoria": [
+    {
+      "id": "1",
+      "nome": "Sedan",
+      "logo": "sedan_logo.png"
+    },
+    {
+      "id": "2",
+      "nome": "Hatch",
+      "logo": "hatch_logo.png"
+    },
+    {
+      "id": "3",
+      "nome": "Picape",
+      "logo": "picape_logo.png"
+    },
+    {
+      "id": "4",
+      "nome": "Moto",
+      "logo": "moto_logo.png"
+    },
+    {
+      "id": "5",
+      "nome": "Caminhonete",
+      "logo": "caminhonete_logo.png"
+    }
+  ],
+  "montadora": [
+    {
+      "id": "1",
+      "nome": "Toyota",
+      "nascionalidade": "Japonesa",
+      "logo": "toyota_logo.png"
+    },
+    {
+      "id": "2",
+      "nome": "Ford",
+      "nascionalidade": "Americana",
+      "logo": "ford_logo.png"
+    },
+    {
+      "id": "3",
+      "nome": "Volkswagen",
+      "nascionalidade": "Alemã",
+      "logo": "volkswagen_logo.png"
+    },
+    {
+      "id": "4",
+      "nome": "Honda",
+      "nascionalidade": "Japonesa",
+      "logo": "honda_logo.png"
+    },
+    {
+      "id": "5",
+      "nome": "Chevrolet",
+      "nascionalidade": "Americana",
+      "logo": "chevrolet_logo.png"
+    }
+  ],
+  "veiculo": [
+    {
+      "id": "d200",
+      "modelo": "Onix LTZ Premier",
+      "ano": 2025,
+      "preco": 150000,
+      "descricao": "​O Chevrolet Onix Premier 2025 é a versão topo de linha do hatch compacto da marca, destacando-se por seu pacote completo de tecnologia, segurança e conforto.​\nFipe Carros\n\nMotorização e Desempenho\nEquipado com motor 1.0 turbo flex de três cilindros, o Onix Premier entrega 116 cv de potência e torque de até 16,8 kgfm com etanol. A transmissão é automática de seis marchas, com opção de trocas manuais. A aceleração de 0 a 100 km/h ocorre em 10,1 segundos, e a velocidade máxima é de 187 km/h. ",
+      "cor": "Prata",
+      "quilometragem": 0,
+      "potencia": 120,
+      "motor": "1.0 turbo",
+      "cambio": "Manual",
+      "direcao": "Elétrica",
+      "tracao": "Dianteira",
+      "categoriaId": 1,
+      "montadoraId": 1,
+      "avaliacao": 5,
+      "destaque": true,
+      "disponivel": true,
+      "imagem": [
+        "http://localhost:3037/uploads/veiculos/1745774001781.jpg",
+        "http://localhost:3037/uploads/veiculos/1745774001779.jpg",
+        "http://localhost:3037/uploads/veiculos/1745774001781.jpg",
+        "http://localhost:3037/uploads/veiculos/1745774001782.jpg",
+        "http://localhost:3037/uploads/veiculos/1745773996806.jpg",
+        "http://localhost:3037/uploads/veiculos/1745773996807.jpg",
+        "http://localhost:3037/uploads/veiculos/1745773996808.jpg",
+        "http://localhost:3037/uploads/veiculos/1745773996809.jpg"
+      ]
+    },
+    {
+      "id": "c42c",
+      "modelo": "CB300",
+      "ano": 2025,
+      "preco": 344444,
+      "descricao": "A Honda CB 300 é uma motocicleta que combina desempenho, estilo e confiabilidade, sendo ideal tanto para deslocamentos urbanos quanto para passeios mais longos. Com um design esportivo e agressivo, a CB 300 chama atenção pelo farol dianteiro afilado, carenagens aerodinâmicas e detalhes em preto fosco que reforçam sua identidade robusta.\n\nEquipada com um motor monocilíndrico de 300cc, a moto entrega potência e torque suficientes para garantir acelerações rápidas e retomadas eficientes, proporcionando uma condução ágil e segura. Seu câmbio de 6 marchas e a injeção eletrônica garantem respostas precisas ao comando do acelerador e melhor eficiência no consumo de combustível.\n\nA suspensão dianteira telescópica e a traseira monoamortecida oferecem estabilidade em curvas e conforto em terrenos irregulares. O sistema de freios a disco nas duas rodas, com ABS, assegura frenagens mais seguras, mesmo em situações de emergência.\n\nO painel digital completo exibe informações essenciais como velocímetro, conta-giros, indicador de marchas e nível de combustível. O banco em dois níveis proporciona conforto tanto para o piloto quanto para o garupa, tornando a CB 300 uma excelente opção para quem busca versatilidade, esportividade e economia em duas rodas.",
+      "cor": "Azul",
+      "quilometragem": 10000,
+      "potencia": 40,
+      "motor": "1.5",
+      "cambio": "Manual",
+      "direcao": "Hidráulica",
+      "tracao": "Dianteira",
+      "categoriaId": 4,
+      "montadoraId": 2,
+      "avaliacao": 5,
+      "destaque": false,
+      "disponivel": true,
+      "imagem": [
+        "http://localhost:3037/uploads/veiculos/1747736542456.png",
+        "http://localhost:3037/uploads/veiculos/1747736542462.png",
+        "http://localhost:3037/uploads/veiculos/1747736542460.png"
+      ]
+    },
+    {
+      "id": "0b36",
+      "modelo": "Falcon XR Turbo",
+      "ano": 2025,
+      "preco": 200000,
+      "descricao": "O Falcon XR Turbo 2024 é um sedan premium que une sofisticação, tecnologia de ponta e desempenho esportivo. Seu design marcante exibe linhas elegantes e agressivas, com faróis full LED em formato de seta e uma grade frontal cromada que transmite imponência. O capô alongado e os vincos bem definidos destacam o caráter dinâmico do veículo, enquanto as rodas de liga leve de 19 polegadas completam o visual moderno e robusto.\\n\\nNo interior, o acabamento refinado inclui couro premium costurado à mão, detalhes em fibra de carbono e iluminação ambiente personalizável. A central multimídia touchscreen de 12 polegadas integra sistemas como Android Auto, Apple CarPlay e comandos por voz, além de um painel digital com gráficos configuráveis.\\n\\nSob o capô, o XR Turbo traz um motor 2.5 turbo de 285 cv, com transmissão automática de 8 marchas e tração integral. A aceleração de 0 a 100 km/h ocorre em apenas 6,2 segundos, garantindo uma condução empolgante sem abrir mão do conforto. Os modos de condução ajustáveis permitem alternar entre o desempenho esportivo e a eficiência no dia a dia.\\n\\nEquipado com sistemas avançados de assistência ao condutor, como piloto automático adaptativo, frenagem autônoma de emergência e assistente de permanência em faixa, o Falcon XR Turbo oferece não apenas prazer ao dirigir, mas também alto nível de segurança. É a escolha ideal para quem deseja luxo, potência e inovação em um único veículo.",
+      "cor": "Roxo",
+      "quilometragem": 50000,
+      "potencia": 50,
+      "motor": "2.0",
+      "cambio": "Automático",
+      "direcao": "Elétrica",
+      "tracao": "Integral",
+      "categoriaId": 1,
+      "montadoraId": 2,
+      "avaliacao": 5,
+      "destaque": false,
+      "disponivel": true,
+      "imagem": [
+        "http://localhost:3037/uploads/veiculos/1747736689922.png",
+        "http://localhost:3037/uploads/veiculos/1747736689920.png",
+        "http://localhost:3037/uploads/veiculos/1747736689918.png"
+      ]
+    }
+  ]
+}
