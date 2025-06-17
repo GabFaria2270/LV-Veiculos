@@ -1,15 +1,25 @@
 {
-  "name": "api_loja_veiculo",
+  "name": "express",
   "version": "1.0.0",
-  "description": "Api via json-server para suporte a prototipagem da loja veículo",
-  "main": "db.json",
+  "description": "API sistema LV",
+  "main": "src/app.js",
+  "type": "module",
   "scripts": {
-    "start": "json-server --watch db.json --port 3000"
+    "start": "node .",
+    "dev": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Gabriel Faria dos Santos & Joanilson Pereira de Andrade",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^1.0.0-beta.3",
-    "sortablejs": "^1.15.6"
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.1",
+    "mysql2": "^3.14.1",
+    "nodemon": "^3.1.10"
   }
 }
