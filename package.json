@@ -1,7 +1,7 @@
 {
   "name": "express",
   "version": "1.0.0",
-  "description": "API sistema LV",
+  "description": "API sistema L-V",
   "main": "src/app.js",
   "type": "module",
   "scripts": {
