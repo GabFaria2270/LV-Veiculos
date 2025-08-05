@@ -4,5 +4,5 @@ node_modules/
 # Ignore .env
 .env
 
-# Ignore Uploads
-images/
+# Ignore images
+uploads/img/
