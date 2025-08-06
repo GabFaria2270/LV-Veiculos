@@ -5,7 +5,7 @@ services:
     image: node:18
     working_dir: /usr/src/app
     volumes:
-      - ./:/usr/src/app
+      - ./api:/usr/src/app
     ports:
       - "3000:3000"
     environment:
@@ -44,6 +44,22 @@ services:
     depends_on:
       - db
 
+  lv_mobile:
+    image: node:18
+    working_dir: /usr/src/app
+    volumes:
+      - ./lv_mobile:/usr/src/app
+    tty: true
+    ports:
+      - "19000:19000" # Expo
+      - "8081:8081" # Metro Bundler
+    command: sh -c "npm install && npm start"
+    environment:
+      - NODE_ENV=development
+      - API_URL=http://api:3000
+    depends_on:
+      - db
+      
 volumes:
   db_data:
 
